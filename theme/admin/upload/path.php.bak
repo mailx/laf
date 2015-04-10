@@ -1,0 +1,6 @@
+<?php 
+echo $_SERVER['PHP_SELF'];
+
+$baseUrl = '/mark/upload/';
+$baseDir = resolveUrl($baseUrl);
+echo $baseDir;
